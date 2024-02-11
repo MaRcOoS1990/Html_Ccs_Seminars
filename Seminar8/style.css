@@ -1,0 +1,24 @@
+
+.img_svg {
+    fill: blueviolet;
+    position: relative;
+    right: 24px;
+    top: 4.5px;
+    background: rgb(255, 255, 255); 
+}
+/* .icon:hover path {
+    fill: blueviolet;
+} */
+input[id="check"]:checked + .img_svg {
+    fill: rgb(226, 43, 52);
+}
+label {
+    padding: 2px;
+    border-radius: 3px;
+    /* background: aliceblue; */
+}
+.video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
